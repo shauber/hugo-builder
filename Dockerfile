@@ -2,7 +2,7 @@ FROM microsoft/vsts-agent:ubuntu-16.04
 
 RUN apt-get update
 
-RUN curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
+RUN curl -sL https://aka.ms/InstallAzureCLIDeb | bash
 
 RUN apt-get install -y asciidoctor bash
 
